@@ -1,0 +1,11 @@
+{
+    "name": "BudgetApp-MVP-client",
+    "version": "1.0.0",
+    "description": "Frontend for BudgetApp-MVP",
+    "main": "index.html",
+    "scripts": {
+        "start": "live-server --port=8080"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+}

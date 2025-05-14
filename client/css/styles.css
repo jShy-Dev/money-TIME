@@ -1,0 +1,43 @@
+/* Basic styling for BudgetApp-MVP */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Simple styling for day tiles in the calendar (placeholder) */
+.day-tile {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  background-color: #e0e0e0;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+}
